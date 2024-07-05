@@ -14,6 +14,8 @@ const API_URLS = [
     'https://www.themealdb.com/api/json/v1/1/search.php?f=g',
 ];
 
+//incluir mejoras para mostar platillos random en la pagina de inicio
+
 function App() {
     const [recipes, setRecipes] = useState([]);
     const [searchResults, setSearchResults] = useState([]);
