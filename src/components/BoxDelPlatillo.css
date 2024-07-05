@@ -1,0 +1,78 @@
+
+/*////////////////////////////////////////////////////////////////////
+
+/* src/components/BoxDelPlatillo.css */
+.box-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.boxDelPlatillo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfeff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.boxDelPlatillo:hover {
+    transform: scale(1.005);
+}
+
+.Contenedorimagen {
+    width: 100%;
+    text-align: center;
+}
+
+.imagen {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.infoPlatillo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nombrePlatillo {
+    font-size: 1.5em;
+    color: #d35400;
+    margin-bottom: 10px;
+}
+
+.favorite-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fav-button {
+    font-size: 2rem;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #999;
+    cursor: pointer;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.fav-button.active {
+    color: red;
+}
+
+.fav-button:hover{
+    transform: scale(1.05);
+    color: red;
+    
+}

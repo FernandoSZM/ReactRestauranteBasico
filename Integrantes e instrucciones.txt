@@ -1,0 +1,6 @@
+Anthony Salas Salas C07095
+Diego Reyes Carvajal B96469
+Fernando Sánchez Moraga B97268
+
+instrucciones de uso:
+npm start 

@@ -1,0 +1,34 @@
+/* src/components/Contact.css */
+.contact-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info p,
+.social-media p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info strong,
+.social-media strong {
+    color: #c0392b;
+}
